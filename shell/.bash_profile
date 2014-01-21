@@ -4,6 +4,8 @@
 export EDITOR='subl -w'
 export GIT_EDITOR='subl -w'
 
+HISTSIZE=1024000
+
 # Don't check mail when opening terminal.
 unset MAILCHECK
 
