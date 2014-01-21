@@ -21,4 +21,4 @@ source "/Users/fooforge/.dotfiles/shell/colors.theme.bash"
 source "/Users/fooforge/.dotfiles/shell/base.theme.bash"
 source "/Users/fooforge/.dotfiles/shell/bobby.theme.bash"
 
-PATH=bin:/opt/boxen/homebrew/share/python:/opt/boxen/heroku/bin:/opt/boxen/foreman/bin:/opt/boxen/rbenv/shims:/opt/boxen/rbenv/bin:/opt/boxen/rbenv/plugins/ruby-build/bin:/opt/boxen/phantomenv/shims:/opt/boxen/phantomenv/bin:node_modules/.bin:/opt/boxen/nodenv/shims:/opt/boxen/nodenv/bin:/opt/boxen/goenv/shims:/opt/boxen/goenv/bin:/opt/boxen/bin:/opt/boxen/homebrew/bin:/opt/boxen/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/boxen/strap/bin
+source /opt/boxen/env.sh
