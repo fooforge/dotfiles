@@ -26,7 +26,7 @@
     editor = subl -w
 
     # Use custom `.gitignore` and `.gitattributes`
-    excludesfile = ~/.gitignore
+    excludesfile = /opt/boxen/config/git/gitignore
     attributesfile = ~/.gitattributes
 
 [color]
@@ -58,3 +58,9 @@
 
 [instaweb]
     httpd = webrick
+
+[credential]
+helper = /opt/boxen/bin/boxen-git-credential
+
+[hub]
+protocol = https
