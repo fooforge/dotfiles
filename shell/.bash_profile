@@ -21,4 +21,7 @@ source "/Users/fooforge/.dotfiles/shell/colors.theme.bash"
 source "/Users/fooforge/.dotfiles/shell/base.theme.bash"
 source "/Users/fooforge/.dotfiles/shell/bobby.theme.bash"
 
+# Load aliases
+source "/Users/fooforge/.dotfiles/shell/.bash_aliases"
+
 source /opt/boxen/env.sh
