@@ -12,15 +12,15 @@
     l = log --pretty=oneline -n 20 --graph
     plog = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     
+    p = pull
+    praise = blame
+
     r = remote
     s = status -s
     st = status
     
     # Undo a `git push`
     undopush = push -f origin HEAD^:master
-    
-    # Rather praise than blame!
-    praise = blame
 
 [core]
     editor = subl -w
