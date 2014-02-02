@@ -35,10 +35,6 @@
     // character when saving
     "ensure_newline_at_eof_on_save": true,
 
-    // Set to true to automatically save files when switching to a different file
-    // or application
-    "save_on_focus_lost": true,
-
     // OS X only: Set to true to disable Lion style full screen support.
     // Sublime Text must be restarted for this to take effect.
     "use_simple_full_screen": true,
