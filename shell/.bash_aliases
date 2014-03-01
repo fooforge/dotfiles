@@ -7,6 +7,7 @@ alias l='ls -a'
 alias l1='ls -1'
 
 alias _="sudo"
+alias computer,="sudo"
 
 alias cls='clear'
 
