@@ -1,0 +1,28 @@
+'exception-reporting':
+  'userId': '9c8ddaf5-fc43-2a85-45be-02dfa9b89026'
+'metrics':
+  'userId': '0197f0f8-8047-8056-7dc2-94015dd8d15c'
+'welcome':
+  'showOnStartup': false
+'editor':
+  'fontFamily': 'Inconsolata'
+  'showIndentGuide': true
+  'showInvisibles': true
+'core':
+  'themes': [
+    'atom-light-ui'
+    'atom-light-syntax'
+  ]
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+  ]
+'spell-check':
+  'grammars': [
+    'text.plain'
+    'source.gfm'
+    'text.git-commit'
+  ]
+'release-notes':
+  'viewedVersion': '0.67.0'
