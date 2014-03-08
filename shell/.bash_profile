@@ -1,8 +1,15 @@
 #!/usr/bin/env bash
 
+HOST=$(/usr/bin/uname)
 # Set my editor and git editor
-export EDITOR='subl -w'
-export GIT_EDITOR='subl -w'
+
+if [ $HOST == "Darwin" ]; then
+  export EDITOR='subl -w'
+  export GIT_EDITOR='subl -w'
+elif [ $HOST == "Linux" ]; then
+  export EDITOR='vim'
+  export GIT_EDITOR='vim'
+fi
 
 HISTSIZE=1024000
 
@@ -24,4 +31,6 @@ source "/Users/fooforge/.dotfiles/shell/bobby.theme.bash"
 # Load aliases
 source "/Users/fooforge/.dotfiles/shell/.bash_aliases"
 
-source /opt/boxen/env.sh
+if [ -f /opt/boxen/env.sh ]; then
+  source /opt/boxen/env.sh
+fi
