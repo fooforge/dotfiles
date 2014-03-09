@@ -40,3 +40,11 @@ source "$HOME/.dotfiles/shell/.bash_aliases"
 if [ -f /opt/boxen/env.sh ]; then
   source /opt/boxen/env.sh
 fi
+
+if [ $HOST == "Linux" ]; then 
+  export RBENV_ROOT="${HOME}/.rbenv"
+  if [ -d "${RBENV_ROOT}" ]; then
+    export PATH="${RBENV_ROOT}/bin:${PATH}"
+    eval "$(rbenv init -)"
+  fi  
+fi
