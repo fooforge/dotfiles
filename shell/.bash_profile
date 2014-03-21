@@ -9,8 +9,8 @@ fi
 # Set my editor and git editor
 if [ $HOST == "Darwin" ]; then
   HOME="/Users/fooforge"
-  export EDITOR='subl -w'
-  export GIT_EDITOR='subl -w'
+  export EDITOR='atom'
+  export GIT_EDITOR='atom'
 elif [ $HOST == "Linux" ]; then
   HOME="/home/fooforge"
   export EDITOR='vim'
@@ -41,10 +41,10 @@ if [ -f /opt/boxen/env.sh ]; then
   source /opt/boxen/env.sh
 fi
 
-if [ $HOST == "Linux" ]; then 
+if [ $HOST == "Linux" ]; then
   export RBENV_ROOT="${HOME}/.rbenv"
   if [ -d "${RBENV_ROOT}" ]; then
     export PATH="${RBENV_ROOT}/bin:${PATH}"
     eval "$(rbenv init -)"
-  fi  
+  fi
 fi

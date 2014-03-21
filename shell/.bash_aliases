@@ -17,3 +17,4 @@ alias ....='cd ../../..' # Go up three directories
 alias -- -='cd -'        # Go back
 
 alias t='todo.sh -d ~/.todo/config'
+alias gif-ify='~/.dotfiles/scripts/gif-ify.sh'
