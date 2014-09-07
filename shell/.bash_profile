@@ -48,3 +48,7 @@ if [ $HOST == "Linux" ]; then
     eval "$(rbenv init -)"
   fi
 fi
+
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
